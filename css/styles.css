@@ -106,9 +106,23 @@ body {
 }
 /*Почта Телефон Шапка*/
 .cap-contact {
+    display: flex;
+    align-items: center;
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.02em;
+}
+.mail-icon {
+width: 16px;
+height: 12px;
+margin-right: 10px;
+fill: currentColor;
+}
+.phone-icon {
+width: 10px;
+height: 16px;
+margin-right: 10px;
+fill: currentColor;
 }
 /* сброс маркировки списков */
 .list {
@@ -326,7 +340,6 @@ letter-spacing: 0.02em;
     border-radius: 4px;
     padding: 16px 32px;
 }
-
 .company-icons-link {
     display: flex;
     justify-content: center;
@@ -336,7 +349,7 @@ letter-spacing: 0.02em;
     width: 106px;
     height: 60px;
 }
-.company-icons-link:hover .company-icons-svg,
+.company-icons-link:hover .company-icons-svg, 
 .company-icons-link:focus .company-icons-svg {
     fill: var(--accent-color);
 } 
