@@ -223,6 +223,21 @@ fill: currentColor;
 .team-block {
     padding: 30px 32px;
 }
+/* Иконки Спутника, Космонавта... */
+.border-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+.size-icon {
+    width: 70px;
+    height: 70px;
+}
 /*Параграфы описаний*/
 .paragraph {
     width: 270px;
@@ -339,12 +354,19 @@ fill: currentColor;
     box-sizing: border-box;
     border-radius: 4px;
 }
+.company-name {
+    display: flex;
+}
+.company-position {
+    margin-right: 30px;
+}
 .company-icons-link {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .company-icons-svg {
+    fill: #AFB1B8;
     width: 106px;
     height: 60px;
 }
@@ -352,6 +374,9 @@ fill: currentColor;
 .company-icons-link:focus .company-icons-svg {
     fill: var(--accent-color);
 } 
+a:hover {
+    border-color: var(--accent-color);
+}
 /*Футер Контакты*/
 .footer-contact {
     line-height: 1.71;
@@ -368,6 +393,14 @@ color: var(--alt-text-color)
 }
 .mail:not(:last-child) {
     margin-bottom: 9px;
+}
+/* Раздел Присоединяйтесь */
+.mini-title-ft {
+    font-family: var(--main-font);
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
 
 /*Курсор для кнопки*/
@@ -411,6 +444,7 @@ color: var(--alt-text-color)
     padding-top: 95px;
     padding-bottom: 50px;
 }
+/* Тени карточек */
 
 /* Заглавие картинок */
 .box-car {
