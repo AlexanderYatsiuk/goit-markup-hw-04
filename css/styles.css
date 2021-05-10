@@ -338,7 +338,6 @@ fill: currentColor;
     border: 1px solid #AFB1B8;
     box-sizing: border-box;
     border-radius: 4px;
-    padding: 16px 32px;
 }
 .company-icons-link {
     display: flex;
