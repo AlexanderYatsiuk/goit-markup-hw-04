@@ -304,7 +304,7 @@ fill: currentColor;
 .social-icons-svg {
     width: 20px;
     height: 20px;
-    fill: #AFB1B8;;
+    fill: #AFB1B8;
 }
 /*Фоны*/
 .footer-bg {
@@ -401,8 +401,35 @@ color: var(--alt-text-color)
     line-height: 1.14;
     text-transform: uppercase;
     color: #FFFFFF;
+    margin-bottom: 20px;
 }
-
+.ft-social {
+    margin-left: 70px;
+}
+.position-ft {
+    display: flex;
+    align-items: baseline;
+}
+.social-icons-link-ft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;   
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.social-icons-svg-ft {
+    width: 20px;
+    height: 20px;
+    fill: #FFFFFF;
+}
+.social-icons-link-ft:hover {
+    background: var(--accent-color);
+}
+.social-icons-link-ft:focus {
+    background: var(--accent-color);
+}
 /*Курсор для кнопки*/
 .box {
      cursor: pointer;
